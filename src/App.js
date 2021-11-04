@@ -1,38 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
-import Navbar from './components/navbar';
-import Home from './components/home';
-import About from './components/about';
-import Users from './components/users';
-import UserDetails from './components/user_details';
+import Navbar from './components/navbar/Navbar';
+import Home from './pages/home';
+import NotFound from './pages/404';
 
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 class App extends Component {
-
-	// state = {
-	// 	title: 'title',
-	// 	body:'body',
-	// 	category: 'category'
-	// }
-
-	// change_title = (e) => {
-	// 	this.setState({
-	// 		title: e.target.value
-	// 	})
-	// }
-
-	// change_category = (e) => {
-	// 	this.setState({
-	// 		category: e.target.value
-	// 	})
-	// }
-
-	// change_body = (e) => {
-	// 	this.setState({
-	// 		body: e.target.value
-	// 	})
-	// }
 
 	render() {
 		return (
@@ -41,13 +15,12 @@ class App extends Component {
 				<Navbar />
 
 				<Switch>
-					<Route exact path='/' component={Home} />
-					<Route exact path='/about' component={About} />
-					<Route exact path='/users' component={Users} />
-					<Route exact path='/users/:user_id' component={UserDetails} />
+					<Route exact path='/facebook-react/' component={Home} />
+					<Route component={NotFound} />
 				</Switch>
 
 			</BrowserRouter>
+
 		);
 	}
 }
