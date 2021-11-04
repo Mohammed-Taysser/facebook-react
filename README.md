@@ -1,6 +1,9 @@
-# Getting Started with Create React App
+# Getting Started Facebook React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+created using several tools and technologies, while learning.
+remember `while learning` mean there maybe a lot of bugs or easier ways to solve or build any part
+
+please if you found any idea for update or any bugs open an issue
 
 ## Available Scripts
 
@@ -38,6 +41,46 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Deploy on github
+
+### first install `gh-pages`
+
+```shell
+npm install gh-pages --save-dev
+# -- or
+yarn add gh-pages
+```
+
+### second add needed scripts to `package.json`
+
+```js
+"scripts": {
+    "start": "react-scripts start",
+    "predeploy": "npm run build",  // <----------- #1
+    "deploy": "gh-pages -d build", // <---------- #2
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+```
+
+### add homepage link
+
+```js
+{
+  "name": "starter-project",
+  "homepage": "https://tomerpacific.github.io/starter-project/", // <----
+  "version": "0.1.0",
+  // ....
+}
+```
+
+### last step. deploy
+
+```js
+npm run deploy
+```
 
 ## Learn More
 
