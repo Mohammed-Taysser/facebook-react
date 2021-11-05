@@ -242,7 +242,7 @@
         "require-yield": "error",
         "radix": ["error", "as-needed"],
         "require-await": "error",
-        "prefer-template": "error",
+        "prefer-template": "warn",
         "quote-props": ["error", "as-needed"],
         "prefer-rest-params": "error",
         "prefer-spread": "error",

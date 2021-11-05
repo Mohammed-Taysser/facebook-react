@@ -6,10 +6,10 @@ const SearchMenu = () => {
 
 		<div className='search-menu d-flex justify-content-around'>
 			<form className=''>
-				<label htmlFor="search-input" className='visually-hidden'>search</label>
-				<input type="email" className="form-control rounded-pill" id="search-input" placeholder="search ..." />
+				<label htmlFor='search-input' className='visually-hidden'>search</label>
+				<input type='email' className='form-control rounded-pill' id='search-input' placeholder='search ...' />
 			</form>
-			<img src={favicon} alt="favicon" className='ml-2' />
+			<img src={favicon} alt='favicon' className='ml-2' />
 		</div>
 
 	);

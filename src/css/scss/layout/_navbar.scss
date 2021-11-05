@@ -18,11 +18,11 @@
       background-color: $main-color;
     }
   }
-  .user-menu{
-    .user-icon img{
-      @include square(40px);
-    }
-  }
+  // .user-menu{
+  //   .user-icon img{
+  //     @include square(40px);
+  //   }
+  // }
   .search-menu{
     img{
       @include square(40px);
