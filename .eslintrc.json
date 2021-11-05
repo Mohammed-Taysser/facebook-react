@@ -36,10 +36,10 @@
                 "allowImplicit": true
             }
         ],
-        "capitalized-comments": [
-            "error",
-            "always"
-        ],
+        // "capitalized-comments": [
+        //     "error",
+        //     "always"
+        // ],
         // "class-methods-use-this": "error",
         "block-scoped-var": "error",
         // "camelcase": [
@@ -265,7 +265,7 @@
             "enforceForRenamedProperties": false
           }],
           "one-var": ["error", "always"],
-          "jsx-quotes": ["error", "prefer-single"],
+          "jsx-quotes": ["warn", "prefer-single"],
           "key-spacing": ["error", { "afterColon": true, "mode": "strict"  }],
           "implicit-arrow-linebreak": ["error", "beside"],
           "indent": ["error", "tab"],

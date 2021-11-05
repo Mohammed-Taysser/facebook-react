@@ -1,0 +1,31 @@
+.navbar{
+  top: 0;
+
+  .icon{
+    @include square(40px);
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    
+    &.rounded-icon{
+      background-color: #f2f2f2;
+      border-radius: 50%;
+    }
+    &.badge::after{
+      position: absolute;
+      line-height: 1.3;
+      top: 5px;
+      background-color: $main-color;
+    }
+  }
+  .user-menu{
+    .user-icon img{
+      @include square(40px);
+    }
+  }
+  .search-menu{
+    img{
+      @include square(40px);
+    }
+  }
+}

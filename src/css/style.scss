@@ -1,17 +1,40 @@
+@use 'sass:color';
+@use 'sass:map';
+
+// my helpers
+@import 'scss/helpers/variables';
+@import 'scss/helpers/mixins';
+@import 'scss/helpers/keyframes';
+@import 'scss/helpers/utilities';
+
 
 /* bootstrap */
-@import 'scss/functions';
-@import 'scss/variables';
-@import 'scss/mixins';
-@import 'scss/utilities';
 
-@import 'scss/root';
-@import 'scss/reboot';
-@import 'scss/type';
+// Configuration
+@import 'scss/bootstrap/functions';
+@import 'scss/bootstrap/variables';
+@import 'scss/bootstrap/mixins';
+@import 'scss/bootstrap/utilities';
 
-@import 'scss/containers';
-@import 'scss/grid';
-@import 'scss/buttons';
-@import 'scss/images';
-@import 'scss/transitions';
-@import 'scss/forms';
+@import 'scss/bootstrap/root';
+@import 'scss/bootstrap/reboot';
+@import 'scss/bootstrap/type';
+
+@import 'scss/bootstrap/containers';
+@import 'scss/bootstrap/grid';
+@import 'scss/bootstrap/buttons';
+@import 'scss/bootstrap/images';
+@import 'scss/bootstrap/transitions';
+@import 'scss/bootstrap/forms';
+
+// Helpers
+@import "scss/bootstrap/helpers";
+
+// Utilities
+@import "scss/bootstrap/utilities/api";
+
+// components
+@import 'scss/layout/navbar';
+
+// spectra
+@import 'scss/spectre-framework/badge';
