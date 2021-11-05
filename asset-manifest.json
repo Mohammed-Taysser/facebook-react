@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/facebook-react/static/css/main.1caaa793.chunk.css",
-    "main.js": "/facebook-react/static/js/main.883dc171.chunk.js",
-    "main.js.map": "/facebook-react/static/js/main.883dc171.chunk.js.map",
-    "runtime-main.js": "/facebook-react/static/js/runtime-main.4aaf1af6.js",
-    "runtime-main.js.map": "/facebook-react/static/js/runtime-main.4aaf1af6.js.map",
-    "static/js/2.09de1e96.chunk.js": "/facebook-react/static/js/2.09de1e96.chunk.js",
-    "static/js/2.09de1e96.chunk.js.map": "/facebook-react/static/js/2.09de1e96.chunk.js.map",
-    "static/js/3.d5e0ab79.chunk.js": "/facebook-react/static/js/3.d5e0ab79.chunk.js",
-    "static/js/3.d5e0ab79.chunk.js.map": "/facebook-react/static/js/3.d5e0ab79.chunk.js.map",
+    "main.css": "/facebook-react/static/css/main.73a224f7.chunk.css",
+    "main.js": "/facebook-react/static/js/main.1a189193.chunk.js",
+    "main.js.map": "/facebook-react/static/js/main.1a189193.chunk.js.map",
+    "runtime-main.js": "/facebook-react/static/js/runtime-main.a2fb6d42.js",
+    "runtime-main.js.map": "/facebook-react/static/js/runtime-main.a2fb6d42.js.map",
+    "static/js/2.3dba3ba1.chunk.js": "/facebook-react/static/js/2.3dba3ba1.chunk.js",
+    "static/js/2.3dba3ba1.chunk.js.map": "/facebook-react/static/js/2.3dba3ba1.chunk.js.map",
+    "static/js/3.9c8b752d.chunk.js": "/facebook-react/static/js/3.9c8b752d.chunk.js",
+    "static/js/3.9c8b752d.chunk.js.map": "/facebook-react/static/js/3.9c8b752d.chunk.js.map",
     "index.html": "/facebook-react/index.html",
-    "static/css/main.1caaa793.chunk.css.map": "/facebook-react/static/css/main.1caaa793.chunk.css.map",
-    "static/js/2.09de1e96.chunk.js.LICENSE.txt": "/facebook-react/static/js/2.09de1e96.chunk.js.LICENSE.txt"
+    "static/css/main.73a224f7.chunk.css.map": "/facebook-react/static/css/main.73a224f7.chunk.css.map",
+    "static/js/2.3dba3ba1.chunk.js.LICENSE.txt": "/facebook-react/static/js/2.3dba3ba1.chunk.js.LICENSE.txt",
+    "static/media/style.min.css": "/facebook-react/static/media/Montserrat-Regular.3cd78665.ttf",
+    "static/media/bootstrap-icon.css": "/facebook-react/static/media/bootstrap-icons.7165e5d7.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.4aaf1af6.js",
-    "static/js/2.09de1e96.chunk.js",
-    "static/css/main.1caaa793.chunk.css",
-    "static/js/main.883dc171.chunk.js"
+    "static/js/runtime-main.a2fb6d42.js",
+    "static/js/2.3dba3ba1.chunk.js",
+    "static/css/main.73a224f7.chunk.css",
+    "static/js/main.1a189193.chunk.js"
   ]
 }
