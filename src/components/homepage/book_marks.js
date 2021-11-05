@@ -1,5 +1,5 @@
 import React from 'react';
-import UserAvatar from '../../images/icon/avatar.png';
+import UserAvatar from '../../images/icon/avatar-1.png';
 
 function ListItem(props) {
 	return <li className='user-icon d-flex justify-content-start align-content-center align-items-center'>
