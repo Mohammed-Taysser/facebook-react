@@ -1,5 +1,6 @@
 .navbar{
   top: 0;
+  z-index: 5;
 
   .icon{
     @include square(40px);

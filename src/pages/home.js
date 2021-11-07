@@ -6,9 +6,9 @@ import '../css/homepage.min.css';
 const NotFound = () => {
 	return (
 		<div className='d-flex mt-5 pt-3'>
-			<div className="vh-100 col-md-3 book-marks"><BookMark /></div>
-			<div className="vh-100 col-md-6 posts"></div>
-			<div className="vh-100 col-md-3 contacts"><Contacts /></div>
+			<div className="vh-100 col-md-3 position-fixed book-marks"><BookMark /></div>
+			<div className="vh-100 col-md-6 offset-3 posts bg-light"></div>
+			<div className="vh-100 col-md-3 position-fixed contacts"><Contacts /></div>
 		</div>
 	);
 };

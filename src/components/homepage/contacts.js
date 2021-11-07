@@ -12,7 +12,7 @@ function ListItem(props) {
 			<img src={props.img} className='' alt={props.body} />
 			<span className='ml-2'>{props.body}</span>
 		</a>
-		<div className="popover-container nice-shadow p-3 rounded">
+		<div className="popover-container nice-shadow bg-white p-3 rounded">
 			<div className="d-flex justify-content-start align-content-center align-items-center">
 				<img src={props.img} className='mr-3' alt={props.body} />
 				<div className="user-info text-muted">
@@ -55,7 +55,7 @@ class Contacts extends React.Component {
 		return (
 			<>
 				<HeroHeading />
-				<ul className='list-unstyled' >
+				<ul className='list-unstyled users px-2' >
 					{
 						this.state.book_marks.map(item => {
 							return <ListItem href='#io' img={item.img} body={item.body} />;

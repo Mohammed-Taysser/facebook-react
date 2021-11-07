@@ -64,7 +64,7 @@
             10
         ],
         "max-lines-per-function": [
-            "error",
+            "warn",
             {
                 "max": 20,
                 "skipBlankLines": true,
