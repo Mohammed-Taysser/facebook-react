@@ -22,6 +22,22 @@
 
 .posts{
   z-index: 1;
+  .post{
+    img {
+      @include square(60px);
+    }
+    .content{
+      img{
+        width: 100%;
+        height: 400px;
+      }
+    }
+    .post-menu{
+      i{
+        font-size: 22px;
+      }
+    }
+  }
 }
 
 .contacts {

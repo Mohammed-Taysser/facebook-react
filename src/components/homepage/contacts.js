@@ -12,11 +12,11 @@ function ListItem(props) {
 			<img src={props.img} className='' alt={props.body} />
 			<span className='ml-2'>{props.body}</span>
 		</a>
-		<div className="popover-container nice-shadow bg-white p-3 rounded">
-			<div className="d-flex justify-content-start align-content-center align-items-center">
+		<div className='popover-container nice-shadow bg-white p-3 rounded'>
+			<div className='d-flex justify-content-start align-content-center align-items-center'>
 				<img src={props.img} className='mr-3' alt={props.body} />
-				<div className="user-info text-muted">
-					<h6 className="mb-3">{props.body}</h6>
+				<div className='user-info text-muted'>
+					<h6 className='mb-3'>{props.body}</h6>
 				</div>
 			</div>
 		</div>
@@ -24,12 +24,12 @@ function ListItem(props) {
 }
 
 function HeroHeading() {
-	return <div className="hero-heading my-4 px-2 text-muted d-flex justify-content-between align-content-center align-items-center">
-		<h4 className="">contacts</h4>
-		<div className="icons">
-			<i className="mx-2 bi bi-camera-video"></i>
-			<i className="mx-2 bi bi-search"></i>
-			<i className="mx-2 bi bi-three-dots"></i>
+	return <div className='hero-heading my-4 px-2 text-muted d-flex justify-content-between align-content-center align-items-center'>
+		<h4 className=''>contacts</h4>
+		<div className='icons'>
+			<i className='mx-2 bi bi-camera-video'></i>
+			<i className='mx-2 bi bi-search'></i>
+			<i className='mx-2 bi bi-three-dots'></i>
 		</div>
 	</div>;
 }
