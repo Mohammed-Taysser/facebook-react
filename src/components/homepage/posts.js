@@ -8,41 +8,41 @@ import UserAvatar_6 from '../../images/icon/avatar-6.png';
 
 function PostItem(props) {
 	return <li className='post p-3 nice-shadow rounded my-3 text-muted'>
-		<div className=" d-flex justify-content-between align-content-center align-items-center">
-			<div className=" d-flex justify-content-start align-content-center align-items-center">
+		<div className=' d-flex justify-content-between align-content-center align-items-center'>
+			<div className=' d-flex justify-content-start align-content-center align-items-center'>
 				<img src={props.img} className='' alt={props.body} />
-				<p className="m-0 popover popover-top">
+				<p className='m-0 popover popover-top'>
 					<span className='ml-2 font-weight-bold d-block'>{props.body}</span>
 					<small className='ml-2 font-weight-bold'>
 						{props.date}
-						<i className="bi bi-globe mx-2"></i>
+						<i className='bi bi-globe mx-2'></i>
 					</small>
-					<div className="popover-container p-3 nice-shadow rounded bg-white">
-						<div className=" d-flex justify-content-start align-content-center align-items-center">
+					<div className='popover-container p-3 nice-shadow rounded bg-white'>
+						<div className=' d-flex justify-content-start align-content-center align-items-center'>
 							<img src={props.img} className='' alt={props.body} />
-							<p className="m-0">
+							<p className='m-0'>
 								<span className='ml-2 font-weight-bold d-block'>{props.body}</span>
 							</p>
 						</div>
 					</div>
 				</p>
 			</div>
-			<div className="post-menu popover popover-left">
-				<i className="bi bi-three-dots"></i>
-				<div className="popover-container p-3 nice-shadow rounded bg-white">
-					<div className=" d-flex justify-content-start align-content-center align-items-center">
+			<div className='post-menu popover popover-left'>
+				<i className='bi bi-three-dots'></i>
+				<div className='popover-container p-3 nice-shadow rounded bg-white'>
+					<div className=' d-flex justify-content-start align-content-center align-items-center'>
 						<img src={props.img} className='' alt={props.body} />
-						<p className="m-0">
+						<p className='m-0'>
 							<span className='ml-2 font-weight-bold d-block'>{props.body}</span>
 						</p>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div className="content mt-3">
-			<p className="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut libero veniam suscipit sed incidunt explicabo fugit omnis saepe! Itaque cumque impedit veritatis neque. Obcaecati nam molestias reprehenderit illo quae ullam.</p>
-			<p className="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut libero veniam suscipit sed incidunt explicabo fugit omnis saepe! Itaque cumque impedit veritatis neque. Obcaecati nam molestias reprehenderit illo quae ullam.</p>
-			<img src={UserAvatar_2} alt="post-photo" className='' />
+		<div className='content mt-3'>
+			<p className='text-muted'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut libero veniam suscipit sed incidunt explicabo fugit omnis saepe! Itaque cumque impedit veritatis neque. Obcaecati nam molestias reprehenderit illo quae ullam.</p>
+			<p className='text-muted'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut libero veniam suscipit sed incidunt explicabo fugit omnis saepe! Itaque cumque impedit veritatis neque. Obcaecati nam molestias reprehenderit illo quae ullam.</p>
+			<img src={UserAvatar_2} alt='post-photo' className='' />
 		</div>
 	</li>;
 }
