@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/facebook-react/static/css/main.73a224f7.chunk.css",
-    "main.js": "/facebook-react/static/js/main.1a189193.chunk.js",
-    "main.js.map": "/facebook-react/static/js/main.1a189193.chunk.js.map",
-    "runtime-main.js": "/facebook-react/static/js/runtime-main.a2fb6d42.js",
-    "runtime-main.js.map": "/facebook-react/static/js/runtime-main.a2fb6d42.js.map",
-    "static/js/2.3dba3ba1.chunk.js": "/facebook-react/static/js/2.3dba3ba1.chunk.js",
-    "static/js/2.3dba3ba1.chunk.js.map": "/facebook-react/static/js/2.3dba3ba1.chunk.js.map",
-    "static/js/3.9c8b752d.chunk.js": "/facebook-react/static/js/3.9c8b752d.chunk.js",
-    "static/js/3.9c8b752d.chunk.js.map": "/facebook-react/static/js/3.9c8b752d.chunk.js.map",
+    "main.css": "/facebook-react/static/css/main.e3afd7a3.chunk.css",
+    "main.js": "/facebook-react/static/js/main.65cc3d2f.chunk.js",
+    "main.js.map": "/facebook-react/static/js/main.65cc3d2f.chunk.js.map",
+    "runtime-main.js": "/facebook-react/static/js/runtime-main.e2a45767.js",
+    "runtime-main.js.map": "/facebook-react/static/js/runtime-main.e2a45767.js.map",
+    "static/js/2.70f2c2b4.chunk.js": "/facebook-react/static/js/2.70f2c2b4.chunk.js",
+    "static/js/2.70f2c2b4.chunk.js.map": "/facebook-react/static/js/2.70f2c2b4.chunk.js.map",
+    "static/js/3.0506f80f.chunk.js": "/facebook-react/static/js/3.0506f80f.chunk.js",
+    "static/js/3.0506f80f.chunk.js.map": "/facebook-react/static/js/3.0506f80f.chunk.js.map",
     "index.html": "/facebook-react/index.html",
-    "static/css/main.73a224f7.chunk.css.map": "/facebook-react/static/css/main.73a224f7.chunk.css.map",
-    "static/js/2.3dba3ba1.chunk.js.LICENSE.txt": "/facebook-react/static/js/2.3dba3ba1.chunk.js.LICENSE.txt",
-    "static/media/style.min.css": "/facebook-react/static/media/Montserrat-Regular.3cd78665.ttf",
-    "static/media/bootstrap-icon.css": "/facebook-react/static/media/bootstrap-icons.7165e5d7.woff"
+    "static/css/main.e3afd7a3.chunk.css.map": "/facebook-react/static/css/main.e3afd7a3.chunk.css.map",
+    "static/js/2.70f2c2b4.chunk.js.LICENSE.txt": "/facebook-react/static/js/2.70f2c2b4.chunk.js.LICENSE.txt",
+    "static/media/profile.min.css": "/facebook-react/static/media/Montserrat-Regular.3cd78665.ttf",
+    "static/media/bootstrap-icon.css": "/facebook-react/static/media/bootstrap-icons.7165e5d7.woff",
+    "static/media/cover.7b1eef04.jpg": "/facebook-react/static/media/cover.7b1eef04.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.a2fb6d42.js",
-    "static/js/2.3dba3ba1.chunk.js",
-    "static/css/main.73a224f7.chunk.css",
-    "static/js/main.1a189193.chunk.js"
+    "static/js/runtime-main.e2a45767.js",
+    "static/js/2.70f2c2b4.chunk.js",
+    "static/css/main.e3afd7a3.chunk.css",
+    "static/js/main.65cc3d2f.chunk.js"
   ]
 }
